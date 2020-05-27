@@ -176,7 +176,7 @@ public class SwiftWebVC: UIViewController {
                 else {
                     toolbar.barStyle = navigationController!.navigationBar.barStyle
                 }
-                toolbar.tintColor = navigationController!.navigationBar.tintColor
+                toolbar.tintColor = .black
             }
             navigationItem.rightBarButtonItems = items.reverseObjectEnumerator().allObjects as? [UIBarButtonItem]
             
@@ -191,7 +191,7 @@ public class SwiftWebVC: UIViewController {
                 else {
                     navigationController.toolbar.barStyle = navigationController.navigationBar.barStyle
                 }
-                navigationController.toolbar.tintColor = navigationController.navigationBar.tintColor
+                navigationController.toolbar.tintColor = .black
                 toolbarItems = items as? [UIBarButtonItem]
             }
         }
